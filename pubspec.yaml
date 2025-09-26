@@ -1,9 +1,19 @@
+name: advanced_calculator
+description: Advanced Calculator with scientific functions
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
 dependencies:
   flutter:
-      sdk: flutter
-        math_expressions: ^3.1.0  # ← تم تحديثه من 2.7.0
+    sdk: flutter
+  math_expressions: ^3.1.0
 
-        dev_dependencies:
-          flutter_test:
-              sdk: flutter
-                flutter_lints: ^6.0.0      # ← تم تحديثه من 3.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
